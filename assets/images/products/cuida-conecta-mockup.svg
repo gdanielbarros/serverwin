@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="window-bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1626"/>
+      <stop offset="1" stop-color="#070B12"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0" y1="0" x2="200" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141E33" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#0E1626" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="pulse-grad" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#00FF87"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App Window Frame -->
+  <rect x="0" y="0" width="800" height="500" rx="12" fill="url(#window-bg)" stroke="#1E2A42" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <path d="M0 12C0 5.37258 5.37258 0 12 0H788C794.627 0 800 5.37258 800 12V42H0V12Z" fill="#0A0F1A"/>
+  <line x1="0" y1="42" x2="800" y2="42" stroke="#1E2A42" stroke-width="1"/>
+  
+  <!-- Window Controls -->
+  <circle cx="24" cy="21" r="5" fill="#EF4444" fill-opacity="0.8"/>
+  <circle cx="40" cy="21" r="5" fill="#F59E0B" fill-opacity="0.8"/>
+  <circle cx="56" cy="21" r="5" fill="#10B981" fill-opacity="0.8"/>
+  
+  <!-- App Title & Status Bar -->
+  <text x="80" y="25" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500" fill="#94A3B8">Cuida Conecta :: Production Environment</text>
+  <rect x="650" y="13" width="130" height="18" rx="9" fill="#064E3B" fill-opacity="0.4"/>
+  <circle cx="662" cy="22" r="3.5" fill="#00FF87"/>
+  <text x="672" y="25" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#00FF87" letter-spacing="1">LIVE & CONNECTED</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="43" width="70" height="457" fill="#080D17"/>
+  <line x1="70" y1="43" x2="70" y2="500" stroke="#1E2A42" stroke-width="1"/>
+  
+  <rect x="18" y="65" width="34" height="34" rx="8" fill="#13243D" stroke="#00E5FF" stroke-width="1"/>
+  <path d="M30 82L35 74L40 82" stroke="#00E5FF" stroke-width="2" stroke-linecap="round"/>
+  <rect x="22" y="120" width="26" height="4" rx="2" fill="#334155"/>
+  <rect x="22" y="140" width="26" height="4" rx="2" fill="#334155"/>
+  <rect x="22" y="160" width="26" height="4" rx="2" fill="#334155"/>
+
+  <!-- Main Dashboard Content -->
+  <!-- Header Metric Row -->
+  <g transform="translate(95, 65)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="210" height="90" rx="8" fill="url(#card-grad)" stroke="#1F2E47" stroke-width="1"/>
+    <text x="18" y="28" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748B" letter-spacing="1">GESTÃO INTEGRADA</text>
+    <text x="18" y="58" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">100% Digital</text>
+    <text x="18" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#00FF87">● Otimização em tempo real</text>
+    
+    <!-- Metric 2 -->
+    <rect x="230" y="0" width="210" height="90" rx="8" fill="url(#card-grad)" stroke="#1F2E47" stroke-width="1"/>
+    <text x="248" y="28" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748B" letter-spacing="1">CONECTIVIDADE</text>
+    <text x="248" y="58" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Multi-Acesso</text>
+    <text x="248" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#00E5FF">● Suporte contínuo</text>
+
+    <!-- Metric 3 -->
+    <rect x="460" y="0" width="210" height="90" rx="8" fill="url(#card-grad)" stroke="#1F2E47" stroke-width="1"/>
+    <text x="478" y="28" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748B" letter-spacing="1">SEGURANÇA & DADOS</text>
+    <text x="478" y="58" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Criptografado</text>
+    <text x="478" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#38BDF8">● Arquitetura Serverwin</text>
+  </g>
+
+  <!-- Flow Visualizer / Interface Chart -->
+  <g transform="translate(95, 175)">
+    <rect x="0" y="0" width="670" height="280" rx="8" fill="url(#card-grad)" stroke="#1F2E47" stroke-width="1"/>
+    <text x="24" y="32" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" fill="#F8FAFC">Fluxo de Monitoramento & Integração do Cuidado</text>
+    <text x="24" y="48" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748B">Sincronização de eventos e protocolos ativos</text>
+
+    <!-- Visual Chart Grid -->
+    <line x1="24" y1="80" x2="646" y2="80" stroke="#162235" stroke-width="1"/>
+    <line x1="24" y1="130" x2="646" y2="130" stroke="#162235" stroke-width="1"/>
+    <line x1="24" y1="180" x2="646" y2="180" stroke="#162235" stroke-width="1"/>
+    <line x1="24" y1="230" x2="646" y2="230" stroke="#162235" stroke-width="1"/>
+
+    <!-- Pulse Line Waves -->
+    <path d="M 24 210 Q 90 200, 150 150 T 280 120 T 400 170 T 520 90 T 646 110" fill="none" stroke="url(#pulse-grad)" stroke-width="2.5"/>
+    <path d="M 24 210 Q 90 200, 150 150 T 280 120 T 400 170 T 520 90 T 646 110 L 646 250 L 24 250 Z" fill="url(#pulse-grad)" fill-opacity="0.04"/>
+
+    <!-- Data Nodes on Line -->
+    <circle cx="150" cy="150" r="5" fill="#00E5FF"/>
+    <circle cx="280" cy="120" r="5" fill="#00FF87"/>
+    <circle cx="520" cy="90" r="6" fill="#00E5FF" stroke="#080C14" stroke-width="2"/>
+    
+    <!-- Floating Tag -->
+    <rect x="475" y="55" width="90" height="22" rx="4" fill="#080F1D" stroke="#00E5FF" stroke-width="1"/>
+    <text x="520" y="70" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00E5FF" font-weight="600">Ponto Ativo</text>
+  </g>
+</svg>

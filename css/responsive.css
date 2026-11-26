@@ -1,0 +1,162 @@
+/**
+ * SERVERWIN — Adaptações Responsivas & Breakpoints
+ * Mobile-First na experiência, adaptando composições para telas menores.
+ */
+
+/* ==========================================================================
+   Telas Médias / Tablets & Laptops Pequenos (<= 1024px)
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .product-showcase {
+    grid-template-columns: 1fr;
+    padding: 2.5rem;
+    gap: 2.5rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .team-member-card:nth-child(2),
+  .team-member-card:nth-child(4) {
+    margin-top: 0;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-brand-col {
+    grid-column: span 2;
+    max-width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Tablets Verticais & Smartphones Grandes (<= 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 70px;
+    --container-pad: 1.25rem;
+  }
+
+  /* Header Mobile */
+  .nav-links,
+  .nav-actions .btn {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding-top: calc(var(--header-height) + 1.5rem);
+    padding-bottom: 3rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-meta-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  /* Seções e Espaçamentos */
+  .editorial-section {
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+  }
+
+  .about-statement {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-statement-text {
+    font-size: 1.15rem;
+  }
+
+  .product-showcase {
+    padding: 1.75rem;
+  }
+
+  .contact-direct-card,
+  .contact-form-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-brand-col {
+    grid-column: span 1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .back-to-top-btn {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ==========================================================================
+   Smartphones Compactos (<= 480px)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .team-member-card {
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .pillar-card {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .product-tags-row {
+    gap: 0.35rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.4rem;
+    font-size: 0.9rem;
+  }
+}

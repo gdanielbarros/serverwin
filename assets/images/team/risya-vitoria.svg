@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <radialGradient id="bg-glow-3" cx="50%" cy="30%" r="70%">
+      <stop stop-color="#0E2D28" offset="0%"/>
+      <stop stop-color="#080C14" offset="100%"/>
+    </radialGradient>
+    <linearGradient id="stroke-glow-3" x1="0" y1="0" x2="400" y2="500">
+      <stop stop-color="#00FF87" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg-glow-3)"/>
+  <!-- Technical Grid overlay -->
+  <line x1="20" y1="20" x2="60" y2="20" stroke="#00FF87" stroke-opacity="0.6" stroke-width="1.5"/>
+  <line x1="20" y1="20" x2="20" y2="60" stroke="#00FF87" stroke-opacity="0.6" stroke-width="1.5"/>
+  <line x1="380" y1="480" x2="340" y2="480" stroke="#00FF87" stroke-opacity="0.6" stroke-width="1.5"/>
+  <line x1="380" y1="480" x2="380" y2="440" stroke="#00FF87" stroke-opacity="0.6" stroke-width="1.5"/>
+  
+  <!-- Abstract Portrait Silhouette -->
+  <circle cx="200" cy="190" r="65" fill="#13362E" stroke="url(#stroke-glow-3)" stroke-width="2"/>
+  <path d="M120 370 C120 280, 280 280, 280 370" fill="#13362E" stroke="url(#stroke-glow-3)" stroke-width="2"/>
+  
+  <!-- Tech Initials -->
+  <text x="200" y="202" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="38" fill="#00FF87" letter-spacing="2">RV</text>
+  
+  <!-- Tech Metadata Badge -->
+  <rect x="30" y="430" width="170" height="28" rx="4" fill="#0D241E" stroke="#1B473C" stroke-width="1"/>
+  <circle cx="45" cy="444" r="4" fill="#00FF87"/>
+  <text x="56" y="449" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#6EE7B7" letter-spacing="1">TECH SPECIALIST</text>
+</svg>
