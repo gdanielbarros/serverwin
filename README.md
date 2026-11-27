@@ -4,7 +4,7 @@ Website institucional da startup **Serverwin**, desenvolvido com foco em estéti
 
 ---
 
-## 🚀 Stack Tecnológica
+## Stack Tecnológica
 
 * **HTML5 Semântico:** Estruturação orientada a SEO, acessibilidade e microformatos.
 * **CSS3 Modular:** Design tokens (`variables.css`), tipografia editorial, layouts assimétricos e responsividade completa sem frameworks pesados.
@@ -14,7 +14,7 @@ Website institucional da startup **Serverwin**, desenvolvido com foco em estéti
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```text
 Site ServerWin/
@@ -54,7 +54,7 @@ Site ServerWin/
 
 ---
 
-## ⚙️ Como Atualizar Informações Institucionais
+## Como Atualizar Informações Institucionais
 
 Todas as informações essenciais estão centralizadas no arquivo [`js/config.js`](file:///c:/Users/conta/Documents/Site%20ServerWin/js/config.js):
 
@@ -69,7 +69,7 @@ Todas as informações essenciais estão centralizadas no arquivo [`js/config.js
 
 ---
 
-## 🛡️ Segurança & Anti-Spam do Formulário
+##  Segurança & Anti-Spam do Formulário
 
 * **Honeypot Invisível:** Campo oculto para humanos (`sw_validation_token`) que, se preenchido por robôs automatizados, bloqueia o envio.
 * **Rate Limiting no Cliente:** Impede envios consecutivos em rajada (mínimo de 30 segundos).
@@ -78,7 +78,7 @@ Todas as informações essenciais estão centralizadas no arquivo [`js/config.js
 
 ---
 
-## 🏃 Como Visualizar Localmente
+##  Como Visualizar Localmente
 
 Como o projeto utiliza módulos JavaScript (`type="module"`), abra a pasta através de um servidor local simples (para evitar restrições de CORS do protocolo `file://`):
 
